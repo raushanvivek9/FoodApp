@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/cont"
+    tools:context=".Food_details">
+  <include
+      layout="@layout/toolbar"
+      android:layout_width="match_parent"
+      android:id="@+id/tool"
+      android:layout_height="wrap_content"
+      />
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_below="@id/tool"
+      >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:orientation="vertical"
+      >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/menu_image"
+        android:src="@drawable/foodimage"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food name"
+        android:textSize="30sp"
+        android:textColor="#530C60"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:id="@+id/food_name"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food Price"
+        android:textSize="28sp"
+        android:id="@+id/food_price"/>
+    <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        app:initialNumber="1"
+        android:layout_marginTop="20dp"
+        app:finalNumber="10"
+        android:id="@+id/num_btn"
+      />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+      >
+      <Button
+          android:layout_width="180dp"
+          android:layout_height="wrap_content"
+          android:text="Add Cart"
+          android:id="@+id/cart"
+          android:background="#8BC34A"
+          />
+
+      <Button
+          android:id="@+id/gocart"
+          android:layout_width="180dp"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="@dimen/activity_horizontal_margin"
+          android:background="#FFC107"
+          android:text="View Cart" />
+    </LinearLayout>
+    </LinearLayout>
+  </ScrollView>
+</RelativeLayout>

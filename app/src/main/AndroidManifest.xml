@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.foodapp">
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Help"
+            android:parentActivityName=".Help"></activity>
+        <activity android:name=".About"
+            android:parentActivityName=".About"/>
+        <activity android:name=".Success_Status" />
+        <activity android:name=".user.OptVerification" />
+        <activity android:name=".Payment.RazorPay" />
+        <activity
+            android:name=".Payment.Payment"
+            android:parentActivityName=".Payment.Payment" />
+        <activity android:name=".user.SeeOrderDetails"
+            android:parentActivityName=".user.SeeOrderDetails"/>
+        <activity
+            android:name=".Placeorder"
+            android:parentActivityName=".Placeorder" />
+        <activity
+            android:name=".Food_details"
+            android:parentActivityName=".Food_details" />
+        <activity
+            android:name=".Menu"
+            android:parentActivityName=".Menu" />
+        <activity android:name=".user.Forgot" />
+        <activity
+            android:name=".user.RestActivity"
+            android:parentActivityName=".user.RestActivity" />
+        <activity
+            android:name=".user.Main2Activity"
+            android:label="@string/title_activity_main2" />
+        <activity android:name=".user.Sign" />
+        <activity android:name=".user.User_login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_K4csPALzfVRoC5" />
+    </application>
+
+</manifest>

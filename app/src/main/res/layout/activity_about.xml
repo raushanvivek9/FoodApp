@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:id="@+id/tool"
+        android:layout_height="wrap_content"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tool">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Introduction:"
+                android:textColor="@color/text_color"
+                android:textStyle="bold"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:textStyle="italic"
+                android:text="This is an android application which is designed to order the food online while travelling by train.
+While travelling a long distance by train the main problem we face is food. To overcome such a problem we want to
+develop a mobile application through which we are ordering the food online. If the person wants to order food
+he/she can directly order the food so that the food is delivered directly to your seat and the cash-on-delivery
+process takes place between the customer and the person who delivers the food to us from the particular restaurant
+which we order."/>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Objective"
+                android:textColor="@color/text_color"
+                android:textStyle="bold"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:textStyle="italic"
+                android:text="
+•	Ordering the food online while travelling by train.\n
+•	Provide more comfort for the users in ordering the food.\n
+•	To avoid the unhygienic railway catering system.\n
+•	The passengers can overcome the problems faced regarding their food need Complaints / Reviews can also be given about the food service."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:textStyle="italic"
+                android:text="
+If there's one thing we truly love, it's sharing in all the great foodie moments you have. Bouquets when the food exceeds
+your expectations, brickbats when the service is shocking, chronicles of your food excursions – they all count.
+While we welcome your opinions and descriptions of your dining experiences, there are a few things we expect from every
+user on FoodApp. Your reviews and photos, as well as your profile and the comments you share, are all subject to Content
+Guidelines, our Foodie Code of Conduct.
+If your activity on FoodApp doesn't match up to these content guidelines, we reserve the right to take action as we deem
+necessary. This could include altering or deleting your reviews or comments, or deleting your FoodApp account altogether,
+with or without notice. FoodApp also utilizes an algorithm to aid in removing suspicious reviews. If you feel your review
+was deleted in error, email us at raushanvivek9@gmail.com.
+If you see content that does not align with these guidelines or our Terms of Service, please let us know. We will consider
+all reports. However, due to the diversity of our community, it is possible that content disagreeable to you might not meet
+the criteria to be removed."/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Foodie Code of Conduct"
+                android:textColor="@color/text_color"
+                android:textStyle="bold"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:textStyle="italic"
+                android:text="
+•	Keep out the clutter: To make sure we collectively work towards building the highest-quality content that's useful to everyone,
+reviews need to be a minimum of 140 characters long for dine-in reviews.. That's just about the length of a tweet, so it's
+convenient even for all you micro-bloggers. If you cover the food, service and ambiance, you shouldn't fall short on characters.
+We do not have 140 characters limit for an online order review. However, if any review is filled with junk, we might have to remove
+the review altogether.
+•	Keep it relevant: Please keep your contributions relevant to FoodApp. Accounts placing irrelevant, inappropriate, or promotional
+content, that solicit customers, or that spam restaurants, notice.or are based on any already disclaimed or informed policies and
+practices of a restaurant may be deleted without notice. If your review has been removed or moderated by us and if you repost
+another experience for the same restaurant, we reserve the right to remove that review too, even though such review might be in
+line with our content guidelines.
+•	Keep it clean: Whether you're writing a small snippet or a delightfully detailed account of your meal, keep foul/abusive/hateful
+language, threats, and lewdness out of it. We, just like you, hate junk and will delete it whenever we see it. This also includes
+a personal vendetta against a business and its associates.
+•	Keep it fresh: Only one review per restaurant for a dine out experience and one review for each online order transaction
+can be submitted and your most recent experience at a place counts. That's what is going to help people when they're trying to
+decide whether or not to eat there. You're free to edit and update your review based on subsequent visits at any time. Reviews
+about old experiences (more than 6 months old) will also be deleted from our platform."/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

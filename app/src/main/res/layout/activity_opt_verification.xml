@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".user.OptVerification">
+
+
+    <ImageView
+        android:layout_width="252dp"
+        android:layout_height="252dp"
+        app:srcCompat="@drawable/ic_smartphone" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OTP Verification"
+            android:textSize="25sp"
+            android:textColor="@color/text_color"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light" />
+
+            <EditText
+                android:id="@+id/otpNumber"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="Enter OTP"
+                android:inputType="number"
+                android:maxLength="6"
+                android:background="@drawable/rount_textbox"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="20sp"/>
+    <Button
+        android:id="@+id/otpsubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="@drawable/btn_rounded_signup"
+        android:layout_marginTop="5dp"
+        android:textColor="#ffff"/>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="OTP(One Time Password sent on your Email Id. If ypu not got then click on"
+        />
+    <TextView
+        android:id="@+id/resendotp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Resend"
+        android:textColor="#303F9F"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"/>
+</LinearLayout>

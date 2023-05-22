@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user.Sign">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/signimage"
+        android:alpha="0.5"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/signupimage"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="14sp"
+                android:layout_marginBottom="5dp"
+                android:text="Enter Your Name:"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorAccentLight"
+                android:textStyle="bold"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/rount_textbox"
+                android:focusable="true"
+                android:hint="Name"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:drawableStart="@drawable/custom_person"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="14sp"
+                android:layout_marginBottom="5dp"
+                android:text="Enter your email Address"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/colorAccentLight"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:textSize="12sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:background="@drawable/rount_textbox"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:drawableStart="@drawable/custom_email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:focusable="true"
+                android:hint="Email"
+                android:singleLine="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="14sp"
+                android:layout_marginBottom="5dp"
+                android:text="Enter your password"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccentLight"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/rount_textbox"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:focusable="true"
+                android:hint="Password"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:drawableStart="@drawable/custom_lock"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textSize="12sp" />
+            <CheckBox
+                android:id="@+id/pass_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/password"
+                android:layout_marginTop="5dp"
+                android:text="show password" />
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="14sp"
+                android:layout_marginBottom="5dp"
+                android:text="Enter your Phone Number"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccentLight"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/phoneno"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/rount_textbox"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:focusable="true"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:drawableStart="@drawable/custom_phone"
+                android:hint="Phone Number"
+                android:inputType="number"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:maxLength="10"
+                android:textSize="12sp" />
+            <Button
+                android:id="@+id/signup"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_height="55dp"
+                android:textSize="20dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:elevation="7dp"
+                android:layout_gravity="center"
+                android:text="REGISTER"
+                android:textColor="#fff"
+                android:background="@drawable/btn_rounded_login"
+                />
+            <TextView
+                android:id="@+id/alreadylogin"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/register"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="#303F9F"
+                android:textSize="15dp" />
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center|bottom"
+                android:layout_marginBottom="20dp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
