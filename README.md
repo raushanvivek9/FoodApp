@@ -85,7 +85,8 @@ In this module the restaurant management can get the order which is placed by th
 In this module restaurant management can check the Train details of passenger’s related information by entering PNR no. or Train number.<br>
 	Notification Module:<br>
 In this module the restaurant management will get notification whenever the new order is placed by the passenger and order cancelled by the customers.<br>
-#Screenshots
+
+<br><br>Screenshots <br><br>
 ![image](https://github.com/raushanvivek9/FoodApp/assets/49828254/b9f10bcc-315e-4e83-bbe6-493c668f7596)
 ![image](https://github.com/raushanvivek9/FoodApp/assets/49828254/9d63c150-8d0b-48a1-a198-053444791ff9)
 ![image](https://github.com/raushanvivek9/FoodApp/assets/49828254/0b85adde-93f2-4e10-be02-24d008ca8f6d)
