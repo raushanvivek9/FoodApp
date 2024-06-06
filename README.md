@@ -6,7 +6,7 @@ Through this app passenger can get the live information about the train and the 
 Once the order is placed by the passenger the two form of payment option is provided
 i.e. online and offline payment. Online payment is done by Net banking, UPI, Credit/Debit Card .Offline payment is the Cash on Delivery (COD) the payment is done by paying cash to the person who delivers the food this is done manually.
 <br>
-# Restaurant App:- [<ul>Click here View RestaurantApp</ul>](https://github.com/raushanvivek9/RestaurantApp) 
+# Restaurant App:- [Click here View RestaurantApp](https://github.com/raushanvivek9/RestaurantApp) 
 <br><br>
 1)	Food App for User:<br>
 The Food App is an android application and the main objective of this app is to develop an android application that offers new service of ordering food online. It is designed to order food online via mobile application while travelling in trains. While people travelling through a train at that time they can order the food online as per their own choice. Passenger can pay payment online through Razor Pay with Credit/Debit Card, Net Banking, UPI, Wallet and COD if passenger wants pay payment Cash on delivery time
